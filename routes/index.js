@@ -1,6 +1,8 @@
 var path = require("path");
 var Customer = require('../models/customer.js');
 var _ = require("underscore")
+var publishableKey = require('../config.js').publishableKey;
+
 
 exports.index = function(req, res){
   res.render('index', { title: "Node-Stripe", user : req.user});
@@ -11,7 +13,7 @@ exports.ping = function(req, res){
 };
 
 exports.charge = function(req, res){
-  res.render('charge', { title: "Process a charge!"});
+  res.render('charge', { title: "Process a charge!", pk: publishableKey});
 };
 
 exports.login = function(req, res){
