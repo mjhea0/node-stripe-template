@@ -9,26 +9,19 @@ This is a template for you to use in your own project for processing one time ch
 $ git clone git@github.com:mjhea0/node-stripe-template.git your_app
 ```
 
-2. Install dependencies:
+1. Install dependencies:
 ```sh
 $ cd your_app
 $ npm install
 ```
-
-3. Rename "config_sample.js" to "config.js" and add your Stripe Keys
-
-4. Add your PublishableKey to "main.js"
-
-5. Rename "users_sample.js" to "users.js" and update the admin user info
-
-5. Make sure to add both "config.js" and "users.js" to your ".gitignore" file
-
-7. Run:
+1. Copy "config_sample.js" to "config.js" and add your Stripe Keys
+1. Copy "users_sample.js" to "users.js" and update the admin user info
+1. Run:
 ```sh
 $ node app
 ```
 
-8. Once you get everything working, make sure to update the links within the admin page, depending upon if you're using the test account or live account.
+1. Once you get everything working, make sure to update the links within the admin page, depending upon if you're using the test account or live account.
 
 ## tests
 
@@ -38,8 +31,8 @@ $ node app
 ## to do
 
 1. unit- FREAKING -tests
-2. update admin page. add charts, graphs, sortable table, trim time from dates ..
-3. add login error messaging
+1. update admin page. add charts, graphs, sortable table, trim time from dates ..
+1. add login error messaging
 
 ## screenshots
 
